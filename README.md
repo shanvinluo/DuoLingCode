@@ -1,2 +1,1 @@
-# DuoLingCode
-DuoLingCode
+# React DuoLingCode

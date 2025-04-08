@@ -1,0 +1,85 @@
+<svg width="82" height="924" viewBox="0 0 82 924" xmlns="http://www.w3.org/2000/svg">
+  <!-- Python -->
+  <g transform="translate(0, 0)">
+    <rect width="82" height="66" fill="#306998" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">Python</text>
+  </g>
+
+  <!-- Java -->
+  <g transform="translate(0, 66)">
+    <rect width="82" height="66" fill="#b07219" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">Java</text>
+  </g>
+
+  <!-- JavaScript -->
+  <g transform="translate(0, 132)">
+    <rect width="82" height="66" fill="#f7df1e" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#000000" font-family="monospace">JS</text>
+  </g>
+
+  <!-- C++ -->
+  <g transform="translate(0, 198)">
+    <rect width="82" height="66" fill="#00599C" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">C++</text>
+  </g>
+
+  <!-- C# -->
+  <g transform="translate(0, 264)">
+    <rect width="82" height="66" fill="#68217A" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">C#</text>
+  </g>
+
+  <!-- Go -->
+  <g transform="translate(0, 330)">
+    <rect width="82" height="66" fill="#00ADD8" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">Go</text>
+  </g>
+
+  <!-- Rust -->
+  <g transform="translate(0, 396)">
+    <rect width="82" height="66" fill="#DEA584" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#000000" font-family="monospace">Rust</text>
+  </g>
+
+  <!-- Ruby -->
+  <g transform="translate(0, 462)">
+    <rect width="82" height="66" fill="#CC342D" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">Ruby</text>
+  </g>
+
+  <!-- TypeScript -->
+  <g transform="translate(0, 528)">
+    <rect width="82" height="66" fill="#3178C6" />
+    <text x="41" y="43" font-size="16" text-anchor="middle" fill="#ffffff" font-family="monospace">TypeScript</text>
+  </g>
+
+  <!-- PHP -->
+  <g transform="translate(0, 594)">
+    <rect width="82" height="66" fill="#777BB4" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">PHP</text>
+  </g>
+
+  <!-- Kotlin -->
+  <g transform="translate(0, 660)">
+    <rect width="82" height="66" fill="#A97BFF" />
+    <text x="41" y="43" font-size="18" text-anchor="middle" fill="#ffffff" font-family="monospace">Kotlin</text>
+  </g>
+
+  <!-- Swift -->
+  <g transform="translate(0, 726)">
+    <rect width="82" height="66" fill="#FA7343" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">Swift</text>
+  </g>
+
+  <!-- R -->
+  <g transform="translate(0, 792)">
+    <rect width="82" height="66" fill="#276DC3" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">R</text>
+  </g>
+
+  <!-- SQL -->
+  <g transform="translate(0, 858)">
+    <rect width="82" height="66" fill="#E38C00" />
+    <text x="41" y="43" font-size="20" text-anchor="middle" fill="#ffffff" font-family="monospace">SQL</text>
+  </g>
+</svg>
