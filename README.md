@@ -67,15 +67,6 @@ A Mobile App to Gamify and Simplify Learning to Code
 
 ## 🚀 Getting Started (Dev Setup)
 
-> ⚠️ NOTE: Project is currently in development. Setup instructions may be updated.
-
-### Prerequisites
-
-- Node.js & npm
-- Python 3.x
-- MySQL
-- Git
-
 ### 1. Clone the Repo
 
 ```bash
