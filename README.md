@@ -58,7 +58,7 @@ A Mobile App to Gamify and Simplify Learning to Code
 
 | Component         | Technology         |
 |------------------|--------------------|
-| Frontend         | React Native and Typescript       |
+| Frontend         | React Native, Next.js and Typescript       |
 | Styling          | Tailwind           |
 | UI/UX Design     | Figma              |
 | Version Control  | Git + GitHub       |
