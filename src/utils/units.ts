@@ -5,6 +5,7 @@ export type Unit = {
   textColor: `text-${string}`;
   borderColor: `border-${string}`;
   tiles: Tile[];
+  difficulty: string;
 };
 
 export type Tile =
@@ -23,6 +24,7 @@ export const units: readonly Unit[] = [
     backgroundColor: "bg-[#ffa116]",
     textColor: "text-[#ffa116]",
     borderColor: "border-[#2d2d2d]",
+    difficulty: "Easy",
     tiles: [
       {
         type: "star",
@@ -60,6 +62,7 @@ export const units: readonly Unit[] = [
     backgroundColor: "bg-[#ffa116]",
     textColor: "text-[#ffa116]",
     borderColor: "border-[#2d2d2d]",
+    difficulty: "Medium",
     tiles: [
       {
         type: "fast-forward",
@@ -93,10 +96,11 @@ export const units: readonly Unit[] = [
   },
   {
     unitNumber: 3,
-    description: "Advanced coding techniques",
+    description: "A deeper dive into coding",
     backgroundColor: "bg-[#ffa116]",
     textColor: "text-[#ffa116]",
     borderColor: "border-[#2d2d2d]",
+    difficulty: "Hard",
     tiles: [
       {
         type: "fast-forward",

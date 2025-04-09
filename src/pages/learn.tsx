@@ -474,7 +474,7 @@ const getTopBarColors = (
 } => {
   const defaultColors = {
     backgroundColor: "bg-[#2d2d2d]",
-    borderColor: "border-[yellow]",
+    borderColor: "border-[orange]",
   } as const;
 
   if (scrollY < 680) {
@@ -601,12 +601,21 @@ const HoverLabel = ({
 const UnitHeader = ({
   unitNumber,
   description,
+  backgroundColor,
+  borderColor,
 }: {
   unitNumber: number;
   description: string;
   backgroundColor: `bg-${string}`;
   borderColor: `border-${string}`;
 }) => {
+  const unit = units.find((u) => u.unitNumber === unitNumber);
+  const difficultyColor = {
+    Easy: "bg-green-600 border-green-700 text-white",
+    Medium: "bg-yellow-500 border-yellow-600 text-black",
+    Hard: "bg-red-600 border-red-700 text-white",
+  }[unit?.difficulty ?? ""];
+
   return (
     <article
       className={[
@@ -616,9 +625,16 @@ const UnitHeader = ({
     >
       <header className="flex items-center justify-between gap-4 p-4">
         <div className="flex flex-col gap-1">
-          <h2 className="text-2xl font-bold text-orange-400">Unit {unitNumber}</h2> {/* LeetCode orange */}
-          <p className="text-lg text-gray-300">{description}</p> {/* Subtle gray text */}
+          <h2 className="text-2xl font-bold text-orange-400">Unit {unitNumber}</h2>
+          <p className="text-lg text-gray-300">{description}</p>
         </div>
+        {unit?.difficulty && (
+          <span
+            className={`rounded-full px-3 py-1 text-sm font-semibold border ${difficultyColor}`}
+          >
+            {unit.difficulty}
+          </span>
+        )}
       </header>
     </article>
   );
