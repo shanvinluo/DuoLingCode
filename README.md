@@ -81,6 +81,12 @@ npm install
 ```
 npm run dev
 ```
+### 4.Simulate Mobile View in Browser
+To best experience the mobile-first design during development:
+1.	Right-click anywhere on the page and select “Inspect”
+2.	Click the “Toggle Device Toolbar” icon (or press Ctrl+Shift+M / Cmd+Shift+M)
+3.	Choose a device format from the top dropdown (e.g., iPhone 12)
+4.	Refresh the page if necessary to apply layout changes
 
 ### 📅 Project Info
 Course: SOEN 357 – User Interface Design
