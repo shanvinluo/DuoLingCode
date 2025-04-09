@@ -20,9 +20,9 @@ export const units: readonly Unit[] = [
   {
     unitNumber: 1,
     description: "Learn the basics of coding",
-    backgroundColor: "bg-[#58cc02]",
-    textColor: "text-[#58cc02]",
-    borderColor: "border-[#46a302]",
+    backgroundColor: "bg-[#ffa116]",
+    textColor: "text-[#ffa116]",
+    borderColor: "border-[#2d2d2d]",
     tiles: [
       {
         type: "star",
@@ -57,9 +57,9 @@ export const units: readonly Unit[] = [
   {
     unitNumber: 2,
     description: "A deeper dive into coding",
-    backgroundColor: "bg-[#58cc02]",
-    textColor: "text-[#58cc02]",
-    borderColor: "border-[#46a302]",
+    backgroundColor: "bg-[#ffa116]",
+    textColor: "text-[#ffa116]",
+    borderColor: "border-[#2d2d2d]",
     tiles: [
       {
         type: "fast-forward",
@@ -94,9 +94,9 @@ export const units: readonly Unit[] = [
   {
     unitNumber: 3,
     description: "Advanced coding techniques",
-    backgroundColor: "bg-[#58cc02]",
-    textColor: "text-[#58cc02]",
-    borderColor: "border-[#46a302]",
+    backgroundColor: "bg-[#ffa116]",
+    textColor: "text-[#ffa116]",
+    borderColor: "border-[#2d2d2d]",
     tiles: [
       {
         type: "fast-forward",

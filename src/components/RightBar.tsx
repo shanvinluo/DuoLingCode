@@ -118,28 +118,6 @@ export const RightBar = () => {
             role="button"
             tabIndex={0}
           >
-
-            <div
-              className="absolute top-full z-10 flex w-72 items-center gap-3 rounded-2xl border-2 border-gray-300 bg-white p-5"
-              style={{
-                left: "calc(50% - 150px)",
-                display: gemsShown ? "flex" : "none",
-              }}
-            >
-              <LingotsTreasureChestSvg className="w-24" />
-              <div className="flex flex-col gap-3">
-                <h2 className="text-xl font-bold text-black">Lingots</h2>
-                <p className="text-sm font-normal text-gray-400">
-                  You have {lingots} {lingots === 1 ? "lingot" : "lingots"}.
-                </p>
-                <Link
-                  className="uppercase text-blue-400 transition hover:brightness-110"
-                  href="/shop"
-                >
-                  Go to shop
-                </Link>
-              </div>
-            </div>
           </span>
         </article>
         {loggedIn && lessonsCompleted < 10 ? (

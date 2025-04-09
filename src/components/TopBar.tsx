@@ -159,12 +159,12 @@ export const TopBar = ({
 
                     <Link
                       className="flex items-center gap-4 px-5 py-2 text-left uppercase hover:bg-gray-700 hover:text-orange-400"
-                      href="https://www.codecademy.com"
+                      href="https://www.codeacademy.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <Image
-                        src="/logos/codecademy.svg"
+                        src="/logos/codeacademy.svg"
                         alt="Codecademy"
                         width={40}
                         height={40}
