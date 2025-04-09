@@ -19,7 +19,6 @@ import { useLeaderboardRank } from "~/hooks/useLeaderboard";
 
 export const RightBar = () => {
   const loggedIn = useBoundStore((x) => x.loggedIn);
-  const lingots = useBoundStore((x) => x.lingots);
   const streak = useBoundStore((x) => x.streak);
   const language = useBoundStore((x) => x.language);
   const lessonsCompleted = useBoundStore((x) => x.lessonsCompleted);
@@ -29,7 +28,6 @@ export const RightBar = () => {
   const [streakShown, setStreakShown] = useState(false);
   const [now, setNow] = useState(dayjs());
 
-  const [gemsShown, setGemsShown] = useState(false);
 
   const [loginScreenState, setLoginScreenState] =
     useState<LoginScreenState>("HIDDEN");
@@ -110,15 +108,7 @@ export const RightBar = () => {
               <Calendar now={now} setNow={setNow} />
             </div>
           </span>
-          <span
-            className="relative flex items-center gap-2 rounded-xl p-3 font-bold text-red-500 hover:bg-gray-100"
-            onMouseEnter={() => setGemsShown(true)}
-            onMouseLeave={() => setGemsShown(false)}
-            onClick={() => setGemsShown((x) => !x)}
-            role="button"
-            tabIndex={0}
-          >
-          </span>
+          
         </article>
         {loggedIn && lessonsCompleted < 10 ? (
           <UnlockLeaderboardsSection />
